@@ -1,4 +1,4 @@
-$webhookURI = ""
+$webhookURI = "your web hook url"
 $response = Invoke-WebRequest -Method Post -Uri $webhookURI -Body $body -UseBasicParsing
 $StatusCode = $response.StatusCode
  
